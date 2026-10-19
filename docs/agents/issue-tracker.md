@@ -12,7 +12,7 @@ Issues and specs for this repo live as GitHub issues. Use the `gh` CLI for all o
 - **Apply / remove labels**: `gh issue edit <number> --add-label "..."` / `--remove-label "..."`
 - **Close**: `gh issue close <number> --comment "..."`
 
-Infer the repo from `git remote -v`; `gh` does this automatically when run inside a clone. If this folder is not yet a clone of `cwhiterite/mps-template`, pass `--repo cwhiterite/mps-template` explicitly.
+Infer the repo from `git remote -v`; `gh` does this automatically when run inside a clone. If this folder isn't yet a clone of your repo, pass `--repo <owner>/<repo>` explicitly. **Template note: this file ships with a placeholder — replace `<owner>/<repo>` with this project's repo before first use.**
 
 ## Pull requests as a triage surface
 

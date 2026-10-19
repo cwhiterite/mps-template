@@ -23,6 +23,3 @@ yarn-error.log*
 .idea/
 .DS_Store
 Thumbs.db
-
-# Agent skills content (regenerable from skills-lock.json)
-.agents/skills/
